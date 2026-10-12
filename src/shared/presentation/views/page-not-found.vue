@@ -1,70 +1,44 @@
 <script setup>
-import { useRoute, useRouter } from 'vue-router';
-import { useI18n } from 'vue-i18n';
-
 /**
- * @summary Displays a message for unknown application routes.
+ * @summary Displays an error page for unsupported routes.
  * @author Benjamin Solorzano
  */
+
+import { useRoute, useRouter } from 'vue-router';
+import { useI18n } from 'vue-i18n';
 
 const route = useRoute();
 const router = useRouter();
 const { t } = useI18n();
-
-function goHome() {
-  router.push('/home');
-}
 </script>
 
 <template>
-  <main class="not-found-page">
-    <h1>404</h1>
+  <section>
 
-    <h2>{{ t('notFound.title') }}</h2>
+    <h1>404 - {{ t('page-not-found') }}</h1>
 
     <p>
-      {{ t('notFound.message') }}
-    </p>
-
-    <p class="unknown-path">
-      {{ route.path }}
+      {{ t('unknown-route') }}
+      <strong>{{ route.fullPath }}</strong>
     </p>
 
     <pv-button
-        :label="t('notFound.backHome')"
+        :label="t('return-home')"
         icon="pi pi-home"
-        @click="goHome"
+        @click="router.push('/home')"
     />
-  </main>
+  </section>
 </template>
 
 <style scoped>
-.not-found-page {
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-  text-align: center;
-}
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
 
-.not-found-page h1 {
-  font-size: 5rem;
-  margin: 0;
-  color: #2563eb;
-}
 
-.not-found-page h2 {
-  margin: 0;
-}
-
-.unknown-path {
-  font-family: monospace;
-  background: #f1f5f9;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  overflow-wrap: anywhere;
-}
 </style>
