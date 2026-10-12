@@ -1,7 +1,14 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import AppToolbar from './shared/presentation/components/toolbar.vue';
+import AppSidebar from './shared/presentation/components/sidebar.vue';
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="min-h-screen surface-ground">
+    <app-toolbar />
+      <app-sidebar />
+      <main>
+        <router-view />
+      </main>
+  </div>
 </template>
