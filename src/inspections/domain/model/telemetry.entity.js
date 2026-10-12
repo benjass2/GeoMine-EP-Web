@@ -1,6 +1,6 @@
 /**
  * @summary Represents a telemetry reading.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 export class Telemetry {
