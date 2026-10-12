@@ -72,7 +72,7 @@
       "inspectionRecordId": 1,
       "machineryCode": "EQ-101",
       "engineTemperatureC": 102.8,
-      "oilPressurePsi": 42.0,
+      "oilPressurePsi": 42,
       "vibrationMmS": 4.1,
       "alertTriggered": true,
       "registeredAt": "2026-10-10T08:15:00Z"
@@ -91,7 +91,7 @@
       "id": 104,
       "inspectionRecordId": 2,
       "machineryCode": "EQ-102",
-      "engineTemperatureC": 88.0,
+      "engineTemperatureC": 88,
       "oilPressurePsi": 60.2,
       "vibrationMmS": 1.2,
       "alertTriggered": false,
@@ -131,11 +131,21 @@
       "id": 108,
       "inspectionRecordId": 3,
       "machineryCode": "EQ-201",
-      "engineTemperatureC": 99.0,
+      "engineTemperatureC": 99,
       "oilPressurePsi": 45.3,
       "vibrationMmS": 8.5,
       "alertTriggered": true,
       "registeredAt": "2026-10-11T14:30:00Z"
+    },
+    {
+      "inspectionRecordId": 3,
+      "machineryCode": "EQ-201",
+      "engineTemperatureC": 12,
+      "oilPressurePsi": 122,
+      "vibrationMmS": 3131,
+      "alertTriggered": true,
+      "registeredAt": "2026-10-12T23:18:55.118Z",
+      "id": 109
     }
   ]
 }

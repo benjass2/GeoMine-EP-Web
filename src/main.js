@@ -1,12 +1,13 @@
 /**
-* @summary Initializes the GeoMine frontend application.
-* @author Student Name
-*/
+ * @summary Initializes the GeoMine frontend application.
+ * @author Benjamin Solorzano
+ */
 
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import PrimeVue from 'primevue/config';
-import Material from '@primeuix/themes/material';
+import Material from '@primeuix/themes/aura';
+
 import Button from 'primevue/button';
 import Card from 'primevue/card';
 import Toolbar from 'primevue/toolbar';
@@ -18,12 +19,11 @@ import ProgressSpinner from 'primevue/progressspinner';
 import Tag from 'primevue/tag';
 import Divider from 'primevue/divider';
 
-
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 
-import App from './app.vue';
-
+import App from './App.vue';
+import router from './shared/router/index.js';
 import i18n from './shared/i18n/index.js';
 
 const app = createApp(App);
@@ -41,7 +41,6 @@ app.use(PrimeVue, {
     }
 });
 
-
 const components = {
     'pv-button': Button,
     'pv-card': Card,
@@ -58,8 +57,5 @@ const components = {
 Object.entries(components).forEach(([name, component]) => {
     app.component(name, component);
 });
-
-
-
 
 app.mount('#app');
