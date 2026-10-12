@@ -120,5 +120,5 @@ Student Code: u202422816
 NRC: 8130
 
 Private GitHub Repository:
-https://github.com/YOUR_USERNAME/YOUR_REPOSITORY
+https://github.com/benjass2/GeoMine-EP-Web
 
