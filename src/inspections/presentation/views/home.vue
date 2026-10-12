@@ -1,7 +1,7 @@
 <script setup>
 /**
  * @summary Displays the mining inspections dashboard.
- * @author Student Name
+ * @author Benjamin Solozano
  */
 
 import { onMounted, ref } from 'vue';

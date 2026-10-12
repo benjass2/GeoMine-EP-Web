@@ -1,6 +1,6 @@
 /**
  * @summary Manages section and machinery catalog state.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 import { defineStore } from 'pinia';

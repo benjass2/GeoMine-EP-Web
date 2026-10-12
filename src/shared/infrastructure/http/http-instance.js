@@ -1,3 +1,8 @@
+/**
+ * @summary Represent instance for HTTP requests.
+ * @author Benjamin Solorzano
+ */
+
 import axios from "axios";
 
 export const http = axios.create({

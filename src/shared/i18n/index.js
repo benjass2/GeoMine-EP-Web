@@ -1,6 +1,6 @@
 /**
  * @summary Configures English and Spanish localization.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 import { createI18n } from 'vue-i18n';

@@ -1,6 +1,6 @@
 /**
  * @summary Converts catalog API resources into domain entities.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 import {Pit} from "../domain/model/pit.entity.js";

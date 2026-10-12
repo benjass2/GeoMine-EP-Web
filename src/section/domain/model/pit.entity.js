@@ -1,6 +1,6 @@
 /**
  * @summary Represents a mining pit section.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 export class Pit {
     constructor(id, name) {

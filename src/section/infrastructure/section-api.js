@@ -1,6 +1,6 @@
 /**
  * @summary Provides external catalog API operations.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 import {externalHttp} from "../../shared/infrastructure/http/http-instance.js";

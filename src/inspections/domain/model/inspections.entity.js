@@ -1,6 +1,6 @@
 /**
  * @summary Represents a machinery inspection record.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 export class Inspection {

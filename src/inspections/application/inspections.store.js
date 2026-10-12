@@ -1,6 +1,6 @@
 /**
  * @summary Manages inspection and telemetry state.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 import { defineStore } from 'pinia';

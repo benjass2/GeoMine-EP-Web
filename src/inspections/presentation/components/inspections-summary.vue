@@ -1,6 +1,6 @@
 /**
 * @summary Displays inspection information and telemetry readings.
-* @author Student Name
+* @author Benjamin Solorzano
 */
 <script setup>
 

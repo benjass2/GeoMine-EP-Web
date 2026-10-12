@@ -1,6 +1,6 @@
 /**
  * @summary Represents a machinery model.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 export class Machinery {
     constructor(id, modelName, manufacturer, idSection) {

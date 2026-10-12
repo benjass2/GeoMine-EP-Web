@@ -1,6 +1,6 @@
 /**
 * @summary Maps inspection resources into domain entities.
-* @author Student Name
+* @author Benjamin Solorzano
 */
 
 import {Inspection} from "../domain/model/inspections.entity.js";

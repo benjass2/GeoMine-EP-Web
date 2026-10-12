@@ -1,6 +1,6 @@
 /**
  * @summary Provides inspection and telemetry REST operations.
- * @author Student Name
+ * @author Benjamin Solozano
  */
 
 import {http} from "../../shared/infrastructure/http/http-instance.js";

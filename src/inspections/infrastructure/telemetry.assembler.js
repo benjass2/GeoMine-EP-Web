@@ -1,6 +1,6 @@
 /**
  * @summary Maps telemetry resources and creation requests.
- * @author Student Name
+ * @author Benjamin Solorzano
  */
 
 import { Telemetry } from '../domain/model/telemetry.entity.js';
